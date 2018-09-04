@@ -24,13 +24,19 @@ namespace DeveloperTestXF
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            //await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("MainTabbedPage?createTab=ShoesPage&createTab=TradePage&createTab=YouPage");
+
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage>();
+            containerRegistry.RegisterForNavigation<MainTabbedPage>();
+            containerRegistry.RegisterForNavigation<ShoesPage>();
+            containerRegistry.RegisterForNavigation<TradePage>();
+            containerRegistry.RegisterForNavigation<YouPage>();
         }
     }
 }
