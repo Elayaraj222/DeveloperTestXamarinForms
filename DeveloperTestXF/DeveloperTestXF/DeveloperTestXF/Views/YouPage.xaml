@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="{Binding Title}"
-             x:Class="DeveloperTestXF.Views.YouPage">
+             x:Class="DeveloperTestXF.Views.YouPage"
+             Icon="you_tab.png">
 
 </ContentPage>

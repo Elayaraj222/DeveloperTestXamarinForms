@@ -9,4 +9,10 @@
     <PackageReference Include="Prism.Autofac.Forms" Version="7.0.0.396" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="DLToolkit.Forms.Controls.FlowListView">
+      <HintPath>DLToolkit.Forms.Controls.FlowListView.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
